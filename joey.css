@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.topbar{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+.name{
+    color: rgb(145, 145, 145);
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    top: 5px;
+}
+
+.major{
+    color: rgb(145, 145, 145);
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    top: 0px;
+}
+
+.school{
+    color: rgb(145, 145, 145);
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    top: 0px;
+}
+
+.resume{
+    color:rgb(145, 145, 145);
+    font-size: 25px;
+    position: relative;
+    left: 15vw;
+    top: -53px;
+    width: 100px;
+    text-decoration: none;
+}
+
+.Gallery{
+    color:rgb(145, 145, 145);
+    font-size: 25px;
+    position: relative;
+    left: 23vw;
+    top: -52px;
+    width: 100px;
+    text-decoration: none;
+}
+.LinkedIn{
+    color:rgb(145, 145, 145);
+    font-size: 25px;
+    position: relative;
+    left: 55vw;
+    top: -52px;
+    width: 100px;
+    text-decoration: none;
+}
+.funpage{
+
+    color:rgb(145, 145, 145);
+    font-size: 25px;
+    position: relative;
+    left: 65vw;
+    top: -53px;
+    width: 200px;
+    text-decoration: none;
+}
+
+.background{
+    background-image: url("IMG_04741.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 875px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer{
+    position: relative;
+    width: 20vw;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: rgba(255, 255, 255, 0.5);
+    left: -20vw;
+    top: -200px;
+    border: rgba(255, 255, 255,.5) solid 3px;
+    
+}
+.darkmode{
+    width: 100px;
+    height: 25px;
+    position:fixed;
+    top: 10px;
+    right: 10px;
+    color: rgb(143, 143, 143);
+    background-color: rgb(56, 55, 55);
+    border: solid rgb(143, 142, 142) 3px;
+    border-radius: 25px;
+}
+
+.lightmode{
+    width: 100px;
+    height: 25px;
+    position:fixed;
+    top: 40px;
+    right: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(143, 142, 142) 3px;
+    border-radius: 25px;
+}
+
+.clockk{
+    position:relative;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(59, 230, 88);
+    font-size: 56px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.35);
+    width: 500px;
+    left: -10vw;
+    top: -370px;
+    border: rgba(255, 255, 255,.5) solid 3px;
+  }
+
+
