@@ -101,9 +101,9 @@
 .darkmode{
     width: 100px;
     height: 25px;
-    position:fixed;
-    top: 10px;
-    right: 10px;
+    position:relative;
+    top: 12px;
+    right:-8px;
     color: rgb(143, 143, 143);
     background-color: rgb(56, 55, 55);
     border: solid rgb(143, 142, 142) 3px;
@@ -113,9 +113,9 @@
 .lightmode{
     width: 100px;
     height: 25px;
-    position:fixed;
-    top: 40px;
-    right: 10px;
+    position:relative;
+    top: 17px;
+    right: -8px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     border: solid rgb(143, 142, 142) 3px;
@@ -173,6 +173,19 @@
     border: solid 6px black;
     width: 135px;
     height: 140px;
+  }
+
+  .theme{
+      width: 115px;
+      height: 80px;
+      background-color: rgba(0, 0, 0, 0.35);
+      position:relative;
+      top: -370px;
+      left: -100px;
+  }
+
+  .menu{
+
   }
 
 
