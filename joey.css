@@ -238,6 +238,14 @@
 .backhome{
     font-size: 30px;
     text-align: center;
+    left: 140px;
+    position: relative;
+    background-color: grey;
+    top: -390px;
+    border: lightgrey solid 3px;
+    color: greenyellow;
+    text-decoration: none;
+    padding: 5px;
 }
 .calcbox{
     background-color: rgba(0, 0, 0, 0.55);
@@ -245,6 +253,7 @@
     height: 500px;
     position: relative;
     top: -100px;
+    left: -50px;
 }
 .innerbox{
     position: relative;
@@ -260,10 +269,11 @@
     height: 40px;
     background-color: rgba(0, 0, 0, 0.55);
     top: 15px;
-    left: 25px;
+    left: 22px;
     color: greenyellow;
     font-size: 25px;
     text-align: center;
+    border: darkgray 3px solid;
 }
 .onebutton{
     background-color: rgba(0, 0, 0, 0.55);
