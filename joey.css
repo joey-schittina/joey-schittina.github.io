@@ -235,6 +235,158 @@
 .dropdown:hover .dropbtn {
     background-color: rgb(82, 82, 82);
 }
+.backhome{
+    font-size: 30px;
+    text-align: center;
+}
+.calcbox{
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 300px;
+    height: 500px;
+    position: relative;
+    top: -100px;
+}
+.innerbox{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    right: -25px;
+    top: 25px;
+    background-color: grey;
+}
+.resbox{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.55);
+    top: 15px;
+    left: 25px;
+    color: greenyellow;
+    font-size: 25px;
+    text-align: center;
+}
+.onebutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 20px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.twobutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 20px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.thrbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 20px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.foubutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 30px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.fivbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 30px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.sixbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:30px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.sevbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:40px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+    
+}
+.eigbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:40px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+    
+}
+.ninbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:40px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.zedbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:50px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.clrbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:50px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.addbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:50px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
 
 
 
