@@ -64,11 +64,3 @@ document.getElementById("magbut").onclick=function(){
 document.getElementById("magbut").innerHTML='<img class="maggie" src="IMG_6691.jpg" alt="maggie picture">';
 }
 
-calculator();
-
-function calculator() {
-}
-
-
-
-
