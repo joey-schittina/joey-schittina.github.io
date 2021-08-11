@@ -12,7 +12,7 @@ const Calculator={
   
     operation : function(op){
       this.operator=op;
-      this.current=this.past;
+      this.past=this.current;
       this.current=0;
     },
   
@@ -80,5 +80,10 @@ const Calculator={
 document.getElementById("plus").onclick=function(){
     Calculator.operation(plus)
     document.getElementById("resb").innerHTML= Calculator.current.toString()
+}
+
+document.getElementById("enter").onclick=function(){
+  Calculator.enter()
+  document.getElementById("resb").innerHTML= Calculator.current.toString()
 }
   

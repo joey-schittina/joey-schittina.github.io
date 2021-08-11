@@ -397,6 +397,16 @@
     border: darkgray 3px solid;
     color: greenyellow;
 }
+.entbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 188px;
+    left: 30px;
+    top:55px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
 
 
 
