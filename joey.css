@@ -407,6 +407,36 @@
     border: darkgray 3px solid;
     color: greenyellow;
 }
+.multbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:55px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.subbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:55px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
+.divbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:55px;
+    border: darkgray 3px solid;
+    color: greenyellow;
+}
 
 
 

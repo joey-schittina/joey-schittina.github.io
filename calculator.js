@@ -1,7 +1,7 @@
 
 const Calculator={
     result:0,
-    operator:null,
+    operator:0,
     past:0,
     current:0,
   
@@ -17,7 +17,18 @@ const Calculator={
     },
   
     enter : function(){
-      this.result=this.past+this.current;
+      if (this.operator==1){
+        this.result=this.past+this.current;
+      }
+      else if (this.operator==3){
+        this.result=this.past-this.current;
+      }
+      else if (this.operator==2){
+        this.result=this.past/this.current;
+      }
+      else if (this.operator==4){
+        this.result=this.past*this.current;
+      }
       this.current=this.result;
     },
   
@@ -77,9 +88,24 @@ const Calculator={
     document.getElementById("resb").innerHTML= Calculator.current.toString()
   }
 
-document.getElementById("plus").onclick=function(){
-    Calculator.operation(plus)
+  document.getElementById("plus").onclick=function(){
+    Calculator.operation(1)
     document.getElementById("resb").innerHTML= Calculator.current.toString()
+  }
+
+document.getElementById("divide").onclick=function(){
+  Calculator.operation(2)
+  document.getElementById("resb").innerHTML= Calculator.current.toString()
+}
+
+document.getElementById("subtract").onclick=function(){
+  Calculator.operation(3)
+  document.getElementById("resb").innerHTML= Calculator.current.toString()
+}
+
+document.getElementById("multiply").onclick=function(){
+  Calculator.operation(4)
+  document.getElementById("resb").innerHTML= Calculator.current.toString()
 }
 
 document.getElementById("enter").onclick=function(){
