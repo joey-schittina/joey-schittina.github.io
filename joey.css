@@ -9,436 +9,155 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+@font-face {
+    font-family: Titlefont;
+    src: url(Ministro.ttf);
+}
+
+@font-face {
+    font-family: secondfont;
+    src: url(Shock-Thin.ttf);
+}
+@font-face {
+    font-family: script;
+    src: url(LeagueScript-Regular.ttf);
+}
+
+:root{
+    --white: white;
+    --grey: gray;
+
+}
+
 .topbar{
-    background-color: rgb(0, 0, 0);
-    height: 100px;
+    position: relative;
+    width: 100vw;
+    height: 110px;
+    z-index: 1;
 }
 
 .name{
-    color: rgb(145, 145, 145);
-    text-align: center;
     position: relative;
+    border: white 5px solid;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+}
+.myName{
+    top: 30px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Titlefont';
     font-size: 40px;
-    top: 5px;
 }
-
-.major{
-    color: rgb(145, 145, 145);
-    text-align: center;
-    position: relative;
-    font-size: 15px;
-    top: 0px;
-}
-
-.school{
-    color: rgb(145, 145, 145);
-    text-align: center;
-    position: relative;
-    font-size: 20px;
-    top: 0px;
-}
-
 .resume{
-    color:rgb(145, 145, 145);
-    font-size: 25px;
     position: relative;
-    left: 15vw;
-    top: -53px;
-    width: 100px;
-    text-decoration: none;
-}
-
-.Gallery{
-    color:rgb(145, 145, 145);
-    font-size: 25px;
-    position: relative;
-    left: 23vw;
-    top: -52px;
-    width: 100px;
-    text-decoration: none;
-}
-.LinkedIn{
-    color:rgb(145, 145, 145);
-    font-size: 25px;
-    position: relative;
-    left: 55vw;
-    top: -52px;
-    width: 100px;
-    text-decoration: none;
-}
-.funpage{
-
-    color:rgb(145, 145, 145);
-    font-size: 25px;
-    position: relative;
-    left: 65vw;
-    top: -53px;
-    width: 200px;
-    text-decoration: none;
-}
-
-.background{
-    background-image: url("IMG_04741.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 875px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.aboutcontainer{
-    position: relative;
-    width: 300px;
-    height: 400px;
-    background-color: rgba(0, 0, 0, 0.55);
-    color: rgba(255, 255, 255, 0.5);
-    left: -150px;
-    top: -200px;
-    margin: 10px;
-    padding:10px;
-    
-}
-.darkmode{
-    width: 100px;
-    height: 25px;
-    position:relative;
-    top: 12px;
-    right:-8px;
-    color: rgb(143, 143, 143);
-    background-color: rgb(56, 55, 55);
-    border: solid rgb(143, 142, 142) 3px;
-    border-radius: 25px;
-}
-
-.lightmode{
-    width: 100px;
-    height: 25px;
-    position:relative;
-    top: 17px;
-    right: -8px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border: solid rgb(143, 142, 142) 3px;
-    border-radius: 25px;
-}
-
-.clockk{
-    position:relative;
-    font-family: 'Orbitron', sans-serif;
-    color: rgb(59, 230, 88);
-    font-size: 56px;
+    color: white;
     text-align: center;
-    justify-content: center;
-    background-color: rgba(0,0,0,.35);
-    width: 500px;
-    left: -120px;
-    top: -370px;
-    border: rgba(255, 255, 255,.5) solid 3px;
-  }
-
-  .about{
-      color: rgb(145,145,145);
-      text-align: center;
-      font-size: 30px;
-  }
-  .aboutbody{
-      color: rgb(145,145,145);
-  }
-  .finny{
-    width: 125px;
-    height: 129px;
-    position: absolute;
-    left: 15px;
-    top: 250px;
-
-  }
-  .maggie{
-    width: 130px;
-    height: 129px;
-    position: absolute;
-    left: 0px;
+    font-family: 'Titlefont';
+    width: 200px;
+    border: 4px solid white;
+    height: 70px;
+    margin: auto;
+    left: -305px;
+    top: -110px;
+}
+.restext{
+    top: 20px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Titlefont';
+    font-size: 25px;
+}
+.linkedin{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Titlefont';
+    width: 200px;
+    border: 4px solid white;
+    height: 70px;
+    margin: auto;
+    right: -305px;
+    top: -188px;
+}
+.linktext{
+    top: 20px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Titlefont';
+    font-size: 25px;
+}
+.mountains{
+    position: fixed;
     top: 0px;
-
-  }
-  .magbutton{
-      background-color: rgb(145, 145, 145);
-      border: solid 6px black;
-      width: 140px;
-      height: 140px;
-      position: relative;
-      left: 10px;
-  }
-  .finbutton{
-    background-color: rgb(145, 145, 145);
-    border: solid 6px black;
-    width: 135px;
-    height: 140px;
-  }
-
-  .theme{
-      width: 115px;
-      height: 300px;
-      background-color: rgba(0, 0, 0, 0.35);
-      position:relative;
-      top: -255px;
-      left: -100px;
-  }
-
-  .dropbtn{
-      background-color: rgb(146, 143, 143);
-      color: black;
-      padding: 0px;
-      margin: 0px;
-      width: 100px;
-      height: 40px;
-      position: inherit;
-      left: 8px;
-      top: 30px;
-      border: solid black 3px;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-  }
-.dropdown {
-    display: inline-block;
-    position: relative;
-    height: 0px;
+    left: 0px;
+    width: 100vw;
+    opacity: .5;
+    z-index: 0;
 }
-.dropdown-content {
+.body{
     position: absolute;
-    background-color: lightgrey;
-    min-width: 90px;
-    display: none;
-    z-index: 1;
-    padding: 0px;
-    margin: 0px;
-    width: 95px;
-    height: 130px;
-    border:solid black 3px;
-    border-top: none;
-    top: 70px;
-    left: 8px;
+    z-index: 999;
+    width: 100vw;
+    height: 700px;
+    top: 200px;
 }
-.apps {
-    color: black;
-    text-decoration: none;
-    display: block;
-    width: 95px;
+.slant{
+    position: relative;
+    height: 300px;
+    top: 300px;
+    width: 50vw;
+}
+.slant2{
+    position: relative;
+    width: 50vw;
+    height: 300px;
+    left: 50vw;
+    top: -4px;
+}
+
+.welcomebox{
+    background-color: rgba(49, 49, 49, 0.4);
+    margin: auto;
+    width: 40vw;
+    height: 220px;
+    display: table;
+    clear: both;
+
+}
+.Hi{
+    width: 15vw;
+    position: relative;
+    height: 100px;
+    color: white;
+    font-family: 'secondfont';
+    font-size: 5vw;
+    margin: auto;
+    display: inline-block;
+    left: 6vw;
+}
+
+.joey{
+    width: 15vw;
+    position: relative;
+    height: 100px;
+    color: rgb(65, 236, 122);
+    font-family: 'script';
+    font-weight: 1000;
+    font-size: 6vw;
+    margin: auto;
+    display: inline-block;
+    left: 6vw;
+}
+.infobox{
+    width: 35vw;
+    color: white;
+    margin: auto;
+    padding: 30px;
+    font-family: 'Titlefont';
     text-align: center;
-    padding-top: 10px;
 }
-.apps:hover {
-    background-color: rgb(255, 255, 255);
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown:hover .dropbtn {
-    background-color: rgb(82, 82, 82);
-}
-.backhome{
-    font-size: 30px;
-    text-align: center;
-    left: 140px;
-    position: relative;
-    background-color: grey;
-    top: -390px;
-    border: lightgrey solid 3px;
-    color: greenyellow;
-    text-decoration: none;
-    padding: 5px;
-}
-.calcbox{
-    background-color: rgba(0, 0, 0, 0.55);
-    width: 300px;
-    height: 500px;
-    position: relative;
-    top: -100px;
-    left: -50px;
-}
-.innerbox{
-    position: relative;
-    width: 250px;
-    height: 400px;
-    right: -25px;
-    top: 25px;
-    background-color: grey;
-}
-.resbox{
-    position: relative;
-    width: 200px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.55);
-    top: 15px;
-    left: 22px;
-    color: greenyellow;
-    font-size: 25px;
-    text-align: center;
-    border: darkgray 3px solid;
-}
-.onebutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top: 20px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.twobutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top: 20px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.thrbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top: 20px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.foubutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top: 30px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.fivbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top: 30px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.sixbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:30px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.sevbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:40px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-    
-}
-.eigbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:40px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-    
-}
-.ninbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:40px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.zedbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:50px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.clrbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:50px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.addbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:50px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.entbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 188px;
-    left: 30px;
-    top:55px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.multbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:55px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.subbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:55px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-.divbutton{
-    background-color: rgba(0, 0, 0, 0.55);
-    position: relative;
-    height: 40px;
-    width: 60px;
-    left: 30px;
-    top:55px;
-    border: darkgray 3px solid;
-    color: greenyellow;
-}
-
-
-
-
