@@ -272,3 +272,58 @@
     font-family: 'orbitron';
     text-align: center;
 }
+.themecontainer{
+    top: -120px;
+    width: 25vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 75px;
+    position: relative;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+}
+.widgets{
+    height: 1000px;
+}
+.lightcontainer{
+    position: relative;
+    height: 40px;
+    width: 40%;
+    border-radius: 30px;
+    background-color: rgb(223, 223, 223);
+    margin: auto;
+    display: flex;
+
+}
+.darkcontainer{
+    position: relative;
+    height: 40px;
+    width: 40%;
+    border-radius: 30px;
+    background-color: rgb(53, 53, 53);
+    margin: auto;
+    display: flex;
+}
+.darktext{
+    position: relative;
+    color: white;
+    margin: auto;
+    font-family: 'Titlefont';
+    font-size: 100%;
+
+}
+.lighttext{
+    position: relative;
+    color: black;
+    margin: auto;
+    font-family: 'Titlefont';
+    font-size: 100%;
+
+}
+.darkimg{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    left: -10px;
+}
