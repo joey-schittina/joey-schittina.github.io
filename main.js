@@ -25,4 +25,14 @@ else {
 
 currentTime();
 
+var theme = document.querySelector(':root')
+
+function lightmode(){
+    document.documentElement.setAttribute('data-theme', 'light')
+}
+
+function darkmode(){
+    document.documentElement.setAttribute('data-theme', 'dark')
+}
+
 
