@@ -278,7 +278,7 @@ body{
     top: 5%;
     color: var(--text);
     font-family: 'titlefont';
-    font-size: .85vw;
+    font-size: 80%;
     list-style-type: \1F95E;
 }
 .huskycontainer2{
@@ -371,3 +371,91 @@ body{
     margin: auto;
     left: -10px;
 }
+
+.dogcontainer{
+    position: relative;
+    width: 600px;
+    height: 250px;
+    background-color: var(--transparant);
+    margin: auto;
+    border-radius: 30px;
+    top: -100px;
+}
+.maggieimg{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 25px;
+    left: 50px;
+    z-index: 2;
+}
+
+.finnyimg{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 25px;
+    left: 150px;
+}
+.blockermaggie{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: var(--innerbox);
+    border-radius: 10px;
+    left: 48px;
+    top: -182px;
+    border: 3px solid rgb(65, 236, 122);
+    z-index: 3;
+    margin: 0;
+}
+.magtext{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 25px;
+    top: 50px;
+    font-family: 'titlefont';
+    color: var(--text);
+    font-size: 30px;
+    text-align: center;
+}
+
+.blockermaggie:hover{
+    background-color: hsla(0, 0%, 73%, 0);
+}
+.blockermaggie:hover .magtext{
+    color: rgba(185, 185, 185, 0);
+}
+
+.blockerfinny{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: var(--innerbox);
+    border-radius: 10px;
+    right: -348px;
+    top: -386px;
+    border: 3px solid rgb(65, 236, 122);
+    z-index: 3;
+    margin: 0;
+}
+.finnytext{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 25px;
+    top: 50px;
+    font-family: 'titlefont';
+    color: var(--text);
+    font-size: 30px;
+    text-align: center;
+}
+
+.blockerfinny:hover{
+    background-color: rgba(185, 185, 185, 0);
+}
+.blockerfinny:hover .finnytext{
+    color: rgba(185, 185, 185, 0);
+}
+
