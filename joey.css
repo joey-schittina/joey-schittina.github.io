@@ -320,7 +320,7 @@ body{
     display: flex;
 }
 .widgets{
-    height: 1000px;
+    height: 1200px;
 }
 .lightcontainer{
     position: relative;
@@ -667,5 +667,44 @@ body{
     color: rgb(65, 236, 122);
     border-radius: 10px;
 }
+.bubblecontainer{
+    margin: auto;
+    position: relative;
+    width: 85vw;
+    height: 250px;
+    background-color: var(--transparant);
+    border: 20px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-rows: 6vw 2vw;
+    grid-template-columns: 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw 7vw ;
+
+}
+.bubble{
+    left: 1.5vw;
+    top: 80px;
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1vw;
+    background-color: var(--innerbox);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'secondfont';
+}
+
+.inp{
+    width: 5vw;
+    position: relative;
+    top: 80px;
+    left: 1.5vw;
+    border-radius: 5px;
+    border: 2px solid rgb(65, 236, 122);
+    background-color: var(--innerbox);
+    padding: 5px 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 
 
