@@ -458,4 +458,214 @@ body{
 .blockerfinny:hover .finnytext{
     color: rgba(185, 185, 185, 0);
 }
+.calcbox{
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 300px;
+    height: 460px;
+    position: relative;
+    margin: auto;
+    border-radius: 30px;
+    border: var(--transparant) ;
+    top: -50px;
+
+}
+.innerbox{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    right: -25px;
+    top: 25px;
+    background-color: var(--innerbox);
+    border-radius: 30px;
+}
+.resbox{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.55);
+    top: 15px;
+    left: 22px;
+    color: rgb(65, 236, 122);
+    font-size: 25px;
+    text-align: center;
+    border: var(--text) 3px solid;
+    border-radius: 10px;
+}
+.onebutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 20px;
+    border: var(--text) 3px solid;
+    border-radius: 10px;
+    color: rgb(65, 236, 122);
+}
+.twobutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 20px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.thrbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 20px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.foubutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 30px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.fivbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top: 30px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.sixbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:30px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.sevbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:40px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.eigbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:40px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.ninbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:40px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.zedbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:50px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.clrbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:50px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.addbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:50px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.entbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 188px;
+    left: 30px;
+    top:60px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.multbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:55px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.subbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:55px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+.divbutton{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    height: 40px;
+    width: 60px;
+    left: 30px;
+    top:55px;
+    border: var(--text) 3px solid;
+    color: rgb(65, 236, 122);
+    border-radius: 10px;
+}
+
 
