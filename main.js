@@ -149,3 +149,51 @@ Calculator.enter()
 document.getElementById("resb").innerHTML= Calculator.current.toString()
 }
 
+
+
+
+var buttonarray = new Array();
+var inparray = new Array();
+var other = new Array();
+
+function updatecolors(){
+  for (let i = 1; i<13; i++){
+    colordigit=other[i].innerText;
+    colordigit=colordigit*21;
+    other[i].style.backgroundColor="rgb(50,200,"+colordigit.toString()+")";
+  }
+}
+
+for (let i = 1; i<13; i++){
+  buttonarray[i]=document.getElementById("t"+i.toString());
+  inparray[i]=document.getElementById("inp"+i.toString());
+  other[i]=document.getElementById("b"+i.toString());
+  buttonarray[i].addEventListener("click",function(){
+    value=Math.floor(parseInt(inparray[i].value));
+    if(value>12){
+      value=12;
+    }
+    else if(value<0){
+      value=0;
+    }
+    colornum=value*21;
+    other[i].style.backgroundColor = "rgb(50,200,"+colornum.toString()+")";
+    buttonarray[i].innerHTML=value.toString();
+  })
+}
+updatecolors();
+
+function randomizenums(){
+  var numlist=[1,2,3,4,5,6,7,8,9,10,11,12];
+  var count = 1;
+  while(count<13){
+    var choice = parseInt((Math.random() * 11), 10);
+    var val = numlist[choice];
+    val=val.toString()
+    buttonarray[count].innerHTML=val;
+    count++;
+  }
+  updatecolors();
+}
+
+
