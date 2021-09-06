@@ -197,3 +197,26 @@ function randomizenums(){
 }
 
 
+
+function bubblesort(){
+  for(let i = 1; i<13;i++){
+    for(let j = 1; j<12;j++){
+      if(parseInt(buttonarray[j].innerHTML)>parseInt(buttonarray[j+1].innerHTML)){
+        var bord = buttonarray[j].style.borderColor;
+        var temp = parseInt(buttonarray[j].innerHTML);
+        buttonarray[j].innerHTML=parseInt(buttonarray[j+1].innerHTML);
+        buttonarray[j+1].innerHTML=temp;
+
+      }
+    }
+  }
+  updatecolors();
+}
+
+
+      
+    
+  
+
+
+
