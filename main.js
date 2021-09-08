@@ -1,38 +1,4 @@
 
-const{GoogleSpreadsheet}= require('google-spreadsheet');
-
-const fs = require('fs');
-
-const RESPONSES_SHEET_ID = '1wcBdI87RPjxfiX5XNeXvGtGASLJ-a_HapzIrH00YSjM'
-
-const doc = new GoogleSpreadsheet(RESPONSES_SHEET_ID);
-
-const CREDENTIALS = JSON.parse(fs.readFileSync('sheets-nodejs-test-a00813fa7405.json'));
-
-const GetRow = async (email) => {
-  await doc.useServiceAccountAuth({
-    client_email: CREDENTIALS.client_email,
-    private_key: CREDENTIALS.private_key
-  });
-
-  await doc.loadInfo();
-
-  let sheet = doc.sheetsByIndex[0];
-
-  let rows = await sheet.getRows();
-
-  for (let index = 0; index < rows.length; index++) {
-    const row = rows[index];
-    if (row.email == email) {
-        console.log(row.user_name);
-        console.log(row.password);
-    }
-  }
-}
-
-getRow('email@jobro.com');
-
-
 function currentTime() {
 var date = new Date(); 
 var hour = date.getHours();
@@ -230,8 +196,6 @@ function randomizenums(){
   updatecolors();
 }
 
-
-
 function bubblesort(){
   for(let i = 1; i<13;i++){
     for(let j = 1; j<12;j++){
@@ -251,6 +215,3 @@ function bubblesort(){
       
     
   
-
-
-

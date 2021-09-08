@@ -8,6 +8,7 @@
     <title>Josep Schittina</title>
     <link rel="stylesheet" href="joey.css">
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             </div>
         </div>
         <div class="resume">
-            <a class="restext" href="JosephSchittinaResume (2).pdf" target="_blank">
+            <a class="restext" href="Resume.pdf"_blank">
                 Resume
             </a>
         </div>
@@ -205,12 +206,31 @@
                 and refreshes periodically.
                 <br> Data from ---> <a style="color: 'blue'; text-decoration: none; font-family: 'titlefont';" target="_blank" href="https://app.safespace.io/api/display/live-occupancy/86fb9e11?view=percent">Rec center website</a>
             </div>
-
         </div>
+        <div class="servertitle">Node.js/JSON Google Sheets server</div>
+        <div class='server'>
+            <div class="serverinfo"> For the backend to this website, I used google sheets API along
+                with Some node.js libraries and JSON packages suited for google sheets to be able to 
+                have user input stored directly into a google sheets file. This input can then be 
+                displayed directly onto this page using some communication between sheets and my site.
+                feel free to input some info to add to the data. :) <br>
+                data can be seen here --> <a href="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRMqqxSNhBpDKaQqsC--SJJC9EXlTStIejjWnoKVwNDLI-L8yoX8tG69UHtoJHuLZLQpRjNHcKV0uFu/pubhtml"
+                style="color: 'blue'; text-decoration: none; font-family: 'titlefont';" target="_blank" >GO SOX</a>
+            </div>
+            <div class="avgage">
+                <div class="agetitle">
+                    Average Age of responses
+                </div>
+                <div class="avg" id="average">
+                </div>
+            </div>
+        </div>
+
+
     </div>
     
 </body>
-<script src="main.js">
-</script>
 
 </html>
+<script src="main.js">
+</script>
