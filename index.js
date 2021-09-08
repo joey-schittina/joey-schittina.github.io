@@ -1,6 +1,5 @@
 
 
-document.getElementById("average").innerHTML=GetRow();
 
 const{GoogleSpreadsheet}= require('google-spreadsheet');
 
@@ -32,11 +31,11 @@ const GetRow = async () => {
     const row = rows[index];
 
     if (row.Name == 'Joseph') {
-        console.log(row.age);
+        return 10;
     }
   }
 }
-GetRow();
+//GetRow();
 
 const addRow = async (rows) => {
 
