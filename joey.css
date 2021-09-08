@@ -320,7 +320,7 @@ body{
     display: flex;
 }
 .widgets{
-    height: 1200px;
+    height: 1800px;
 }
 .lightcontainer{
     position: relative;
@@ -672,7 +672,7 @@ body{
     position: relative;
     width: 85vw;
     height: 300px;
-    background-color: var(--transparant);
+    background-color: var(--transparent2);
     border: 20px;
     border-radius: 50px;
     display: grid;
@@ -727,6 +727,83 @@ body{
     border: rgb(65, 236, 122) 3px solid;
     border-radius: 10px;
 }
+.sorterinfo{
+    position: relative;
+    margin: auto;
+    width: 30vw;
+    border-radius: 30px;
+    background-color: var(--innerbox);
+    text-align: center;
+    font-family: 'titlefont';
+    padding: 15px;
+    font-size: 30px;
+    top: 30px;
+    z-index: 99;
+    border: 3px solid var(--text)
+}
+.howto{
+    position: relative;
+    margin: auto;
+    width: 30vw;
+    border-radius: 30px;
+    background-color: var(--innerbox);
+    text-align: center;
+    font-family: 'titlefont';
+    padding: 15px;
+    font-size: 15px;
+    top: -50px;
+    z-index: 99;
+    border: 3px solid var(--text);
+    height: 100px;
+}
+.gymcontainer{
+    position: relative;
+    width: 40vw;
+    height: 400px;
+    background-color: var(--transparent2);
+    margin: auto;
+    border-radius: 50px;
+}
+.gymtitle{
+    position: relative;
+    width: 30vw;
+    padding: 20px;
+    font-family: 'titlefont';
+    font-size: 25px;
+    margin: auto;
+    background-color: var(--innerbox);
+    top: -20px;
+    text-align: center;
+    border:var(--text) 3px solid;
+    border-radius: 30px;
+}
+.gyminfo{
+    position: relative;
+    width: 20vw;
+    padding: 10px;
+    font-family: 'titlefont';
+    font-size: 15px;
+    margin: auto;
+    background-color: var(--innerbox);
+    text-align: center;
+    border:var(--text) 3px solid;
+    border-radius: 30px;
+}
+.capacity{
+    background-color: rgb(87, 90, 255);
+    border:rgb(0, 0, 0) solid 5px;
+    border-radius: 20px;
+    width: 10vw;
+    padding: 15px;
+    margin: auto;
+    position: relative;
+    top: -10px;
+    color: var(--text);
+    font-size: 5vw;
+    text-align: center;
+}
+
+
 
 
 
