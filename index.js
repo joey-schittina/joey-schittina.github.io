@@ -14,6 +14,11 @@ const CREDENTIALS = JSON.parse(fs.readFileSync('sheets-nodejs-test-a00813fa7405.
 var age=[];
 var teams = [];
 
+function upd(){
+
+}
+
+setsand
 
 const GetRow = async () => {
   await doc.useServiceAccountAuth({
