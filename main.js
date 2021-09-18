@@ -208,35 +208,4 @@ function currentTime() {
     updatecolors();
   }
 
-      
     
-
-  dex=2;
-
-  operations = [];
-
-  function createops(){
-    for(let i = 1; i<13;i++){
-      for(let j = 1; j<12;j++){
-        if(parseInt(buttonarray[j].innerHTML)>parseInt(buttonarray[j+1].innerHTML)){
-          dex+=1;
-        }
-      }
-    }
-    buttonarray[1].innerHTML=dex;
-  }
-  document.getElementById("randomizer").onclick=createops();
-
-
-  function exec(){
-    buttonarray[1].innerHTML=dex;
-    var bord = other[operations[dex][0]].style.borderColor;
-    other[operations[dex][0]].style.borderColor='red';
-    other[operations[dex][2]].style.borderColor='red';
-    buttonarray[operations[dex][0]].innerHTML=operations[dex][1];
-    buttonarray[operations[dex][2]].innerHTML=operations[dex][3];
-    dex+=1;
-  }
-
-
-
